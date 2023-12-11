@@ -1,0 +1,313 @@
+body{
+    font-family: "Comic Sans MS","Sans-Serif";
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0px;
+    font-size: 22px;
+}
+
+.welcome{
+    text-align: center;
+}
+.answer{
+    padding-left: 20px;
+    font-size: 21px;
+}
+
+.question{
+    font-size: 25px;
+}
+
+ul{
+    padding-left: 30px;
+}
+
+.counter{
+    width: 800px;
+    height: 270px;
+    border-radius: 10px;
+    border-width: 3px;
+    border-style:none;
+    margin: auto;
+}
+
+.contents{
+    max-width: 60%;
+    border-radius: 10px;
+    border-width: 3px;
+    border-style:dotted;
+    margin: auto;
+    border-color: black;
+    
+    background: linear-gradient(to bottom,rgb(19, 194, 19),rgb(255, 234, 0), rgb(27, 33, 194,0.5));
+    text-decoration: none;
+}
+.list{
+    margin: 30px;
+}
+.cont{
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+}
+.head{
+    background: linear-gradient(to right, rgba(17, 8, 98, 0.536),rgba(0, 0, 0, 0.436)), url(pxfuel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    margin-bottom: 60px;
+    color: white;
+}
+
+.title{
+    font-size: 55px;
+    padding: 20px;
+    /*border: 10px solid black;*/
+}
+
+.content-element{
+    text-decoration: none;
+    font-size: 18px;
+    color:black
+}
+
+.content-element:hover, .live:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.production{
+    display: block;
+    margin: auto;
+    border: 2px;
+    align-content: center;
+    border: none;
+    background:linear-gradient(45deg, rgb(0, 139, 139), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0)),
+     linear-gradient(90deg, rgb(0, 139, 139), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0)),
+     linear-gradient(135deg, rgb(0, 139, 139), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0)),
+     linear-gradient(180deg, rgb(0, 139, 139), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0)),
+     linear-gradient(225deg, rgb(0, 139, 139), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0)),
+     linear-gradient(270deg, rgb(0, 139, 139), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0)),
+     linear-gradient(315deg, rgb(0, 139, 139), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0)),
+     linear-gradient(360deg, rgb(0, 139, 139), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0)),
+     url(https://cleanstreets.westminster.gov.uk/wp-content/uploads/plasticwaste-global-issue-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+    padding: auto;
+}
+.plastic-type{
+    display: inline-block;
+    width: 200px;
+    max-height: auto;
+    padding: 2px;
+    margin: auto;
+    padding-left:20px ;
+
+}
+
+.type{
+    font-weight: bold;
+}
+
+.uses{
+    font-size:medium;
+}
+
+
+.pic, .wasted, .ocean-plastic, .ocean-animals, .land-animals, .road, .plastic-road{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 60px;
+}
+
+.first{
+    background: 
+    
+    linear-gradient(45deg, rgb(0, 139, 139), rgba(0, 139, 139, 0.414), rgba(0, 139, 139, 0)),
+    linear-gradient(90deg, rgb(0, 139, 139), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0)),
+    linear-gradient(135deg, rgb(0, 139, 139), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0.427),rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0)),
+    linear-gradient(180deg, rgb(0, 139, 139), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0),rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0)),
+    linear-gradient(225deg, rgb(0, 139, 139), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0)),
+    linear-gradient(270deg, rgb(0, 139, 139), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0),rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0)),
+    linear-gradient(315deg, rgb(0, 139, 139), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0),rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0)),
+    linear-gradient(360deg, rgb(0, 139, 139), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0),rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0)),
+    url(https://cleanstreets.westminster.gov.uk/wp-content/uploads/plastic-631625_1920-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.waste{
+    display: inline-block;
+    margin: auto;
+    gap: 16px;
+    margin-bottom: 50px;
+    height: 400px;
+    padding: 2px;
+    margin: auto;
+    padding-left: 20px;
+}
+
+.break{
+    width: 80%;
+}
+.ocean{
+    display: inline-block;
+    margin: auto;
+    padding-left: 20px;
+    align-items: center;
+}
+.ocean-img{
+    height: 400px
+}
+
+.sea-animal-img{
+    height: 350px;
+}
+
+.land-animal{
+    height: 370px;
+}
+
+.land-animal-img{
+    height:350px;
+}
+
+.stoppage{
+    margin-left: 30px;
+}
+
+.rrr{
+    background: 
+    linear-gradient(to right, rgb(0, 139, 139),rgba(0, 139, 139, 0.648),rgba(0, 139, 139, 0.594),rgba(0, 139, 139, 0.539),rgba(0, 139, 139, 0.489),rgba(0, 139, 139, 0.507)),
+    linear-gradient(to bottom, rgb(0, 139, 139),rgb(0, 139, 139),rgba(0, 139, 139, 0),rgba(0, 139, 139, 0),rgba(0, 139, 139, 0),rgba(0, 139, 139, 0)),
+    linear-gradient(to left, rgb(0, 139, 139),rgba(0, 139, 139, 0),rgba(0, 139, 139, 0),rgba(0, 139, 139, 0),rgba(0, 139, 139, 0),rgba(0, 139, 139, 0)),
+    linear-gradient(to top, rgb(0, 139, 139),rgb(0, 139, 139),rgba(0, 139, 139, 0),rgba(0, 139, 139, 0),rgba(0, 139, 139, 0),rgba(0, 139, 139, 0)),
+     url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0_d2hM7jfXGrvQa-GP6TQXwItOn8VLkvL7g&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+.seventh{
+    background:linear-gradient(45deg, rgb(0, 139, 139), rgba(0, 139, 139, 0.3), rgba(0, 139, 139, 0)),
+    linear-gradient(90deg, rgb(0, 139, 139), rgba(0, 139, 139, 0.3), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0)),
+    linear-gradient(135deg, rgb(0, 139, 139), rgba(0, 139, 139, 0.3), rgba(0, 139, 139, 0),rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0)),
+    linear-gradient(180deg, rgb(0, 139, 139), rgba(0, 139, 139, 0.3), rgba(0, 139, 139, 0),rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0)),
+    linear-gradient(225deg, rgb(0, 139, 139), rgba(0, 139, 139, 0.3), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0)),
+    linear-gradient(270deg, rgb(0, 139, 139), rgba(0, 139, 139, 0.3), rgba(0, 139, 139, 0),rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0)),
+    linear-gradient(315deg, rgb(0, 139, 139), rgba(0, 139, 139, 0.3), rgba(0, 139, 139, 0),rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0)),
+    linear-gradient(360deg, rgb(0, 139, 139), rgba(0, 139, 139, 0.3), rgba(0, 139, 139, 0),rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0)),
+    url(https://assets.telegraphindia.com/telegraph/2022/Nov/1669700804_dustbin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:right;
+    background-position: top;
+}
+
+.fifth{
+    background: 
+    linear-gradient(45deg, rgb(0, 139, 139), rgba(0, 139, 139, 0.5), rgba(0, 139, 139, 0)),
+    linear-gradient(90deg, rgb(0, 139, 139), rgba(0, 139, 139, 0.5), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0)),
+    linear-gradient(135deg, rgb(0, 139, 139), rgba(0, 139, 139, 0.5), rgba(0, 139, 139, 0),rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0)),
+    linear-gradient(180deg, rgb(0, 139, 139), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0),rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0)),
+    linear-gradient(225deg, rgb(0, 139, 139), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0)),
+    linear-gradient(270deg, rgb(0, 139, 139), rgba(0, 139, 139, 0.5), rgba(0, 139, 139, 0),rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0)),
+    linear-gradient(315deg, rgb(0, 139, 139), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0),rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0)),
+    linear-gradient(360deg, rgb(0, 139, 139), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0),rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0)),
+    url(https://s.abcnews.com/images/International/plastic-waste-ho-mz-45-221123_1669235570144_hpMain_16x9_992.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.fourth{
+    background: 
+    linear-gradient(45deg, rgb(0, 139, 139), rgba(0, 139, 139, 0.4), rgba(0, 139, 139, 0)),
+    linear-gradient(90deg, rgb(0, 139, 139), rgba(0, 139, 139, 0.4), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0)),
+    linear-gradient(135deg, rgb(0, 139, 139), rgba(0, 139, 139, 0.4), rgba(0, 139, 139, 0),rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0)),
+    linear-gradient(180deg, rgb(0, 139, 139), rgba(0, 139, 139, 0.4), rgba(0, 139, 139, 0),rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0)),
+    linear-gradient(225deg, rgb(0, 139, 139), rgba(0, 139, 139, 0.4), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0)),
+    linear-gradient(270deg, rgb(0, 139, 139), rgba(0, 139, 139, 0.4), rgba(0, 139, 139, 0),rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0)),
+    linear-gradient(315deg, rgb(0, 139, 139), rgba(0, 139, 139, 0.4), rgba(0, 139, 139, 0),rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0)),
+    linear-gradient(360deg, rgb(0, 139, 139), rgba(0, 139, 139, 0.4), rgba(0, 139, 139, 0),rgba(0, 139, 139, 0), rgba(0, 139, 139, 0), rgba(0, 139, 139, 0)),
+    url(pxfuel\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position: top;
+}
+
+.usage{
+    padding-left: 100px;
+    list-style-type: disc;
+}
+
+.use{
+    font-size: 21px;
+}
+
+.road-vid{
+    display: flex;
+    border-radius: 10px;
+    border-width: 3px;
+    border-style:none;
+    margin: auto;
+    border-color: none;
+    min-width: 100px;
+}
+
+.plastic-road-images{
+    max-height: auto;
+    padding: 2px;
+    margin: auto;
+    padding-left:20px;
+}
+
+.road-image{
+    height: 350px
+}
+
+.process{
+    padding-left: 100px;
+}
+
+.page{
+    margin-right: 50px;
+}
+
+p{
+    text-align: justify;
+}
+
+body{
+    background:rgb(0, 139, 139);
+    color:antiquewhite
+}
+
+.eighth{
+    background: 
+    linear-gradient(to right, rgb(0, 139, 139),rgba(0, 139, 139, 0.648),rgba(0, 139, 139, 0.594),rgba(0, 139, 139, 0.539),rgba(0, 139, 139, 0.489),rgba(0, 139, 139, 0.507)),
+    linear-gradient(to bottom, rgb(0, 139, 139),rgb(0, 139, 139),rgba(0, 139, 139, 0),rgba(0, 139, 139, 0),rgba(0, 139, 139, 0),rgba(0, 139, 139, 0)),
+    linear-gradient(to left, rgb(0, 139, 139),rgba(0, 139, 139, 0),rgba(0, 139, 139, 0),rgba(0, 139, 139, 0),rgba(0, 139, 139, 0),rgba(0, 139, 139, 0)),
+    linear-gradient(to top, rgb(0, 139, 139),rgb(0, 139, 139),rgba(0, 139, 139, 0),rgba(0, 139, 139, 0),rgba(0, 139, 139, 0),rgba(0, 139, 139, 0)), url(https://hi-static.z-dn.net/files/df9/059f044028e1f93df7da252a5c73f67f.jpg);
+    background-position:center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+.paper-bag{
+    width: 400px
+}
+
+.live:hover{
+    color: red;
+}
